@@ -1,3 +1,5 @@
+package questions;
+
 public class Dog {
 
     public String name;
