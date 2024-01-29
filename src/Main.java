@@ -29,7 +29,7 @@ public class Main {
                 operators work. When sent to the increment() function it does the '++i' operation first. So if
                 i was 0, it would increment it to be 1 so the first value to be added would be 1. After that,
                 'i++' is used to increment the value of i to 2, but that will be done after 'i++' is resolved as 1
-                for the formula. So the first return value would be 2. After that when i is passed in as the value
+                for the formula. So the first return value would be 2. Finally, when i is passed in as the value
                 of 2, '++i' resolves as 3 and 'i++' is resolved as 3 before it is incremented to 4, and so on.\s""");
         System.out.println("\nPlease view questions/Question4.java to better understand the response\n");
 
@@ -43,7 +43,7 @@ public class Main {
         System.out.println("Question 7 Answer:\n");
         System.out.println("The answer is the following: Fido");
         System.out.println("""
-                The reasoning behind is because of pass-by-value. Pass-By-Reference occurs when you call a function with
+                The reasoning behind this, is because of pass-by-value. Pass-By-Reference occurs when you call a function with
                 parameter and you send a reference of that object as a parameter. In Java, when you send an
                 object as a parameter, a copy of that object's reference is given to the function and not the original
                 object. Other languages, like C++, can be what is called pass-by-reference, but Java is strictly
